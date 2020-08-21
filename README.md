@@ -1,3 +1,5 @@
+
+🤖🙊 This is my typescript homework 
 ## Rules
 
 + A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
