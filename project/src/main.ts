@@ -1,9 +1,9 @@
-interface Score {
+export interface Score {
     player1Score: number,
     player2Score: number
 }
 
-function updateGameScore(player1Score:number, player2Score:number): Score {
+export function updateGameScore(player1Score:number, player2Score:number): Score {
     let score:Score = {
         "player1Score": player1Score,
         "player2Score": player2Score
@@ -11,7 +11,7 @@ function updateGameScore(player1Score:number, player2Score:number): Score {
     return score
 }
 
-function decideGameWinner(score: Score): string {
+export function decideGameWinner(score: Score): string | null{
     // No winner, if both player have score less than 4
     if (score.player1Score < 4 && score.player2Score < 4)
         return null
@@ -30,7 +30,7 @@ function decideGameWinner(score: Score): string {
         return 'Deuce'
 }
 
-function printScore(playerScore:number[]) {
+export function printScore(playerScore:number[]): string | null {
     let score = updateGameScore(playerScore[0], playerScore[1]);
 
     let scoreDesc = ['love', 'fifteen', 'thirty', 'forty']

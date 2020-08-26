@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  frontend:
+    container_name: tennis-kata-test
+    build:
+      context: .
+      dockerfile: dockerfile
+    command: sh -c "sleep infinity"  # do nothing forever, running command is in README.md because sometimes frontend is not refresh when code is updated.
+    volumes:
+      - ./project:/opt/app
