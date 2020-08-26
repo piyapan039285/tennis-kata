@@ -28,8 +28,8 @@ Sample output <br/> ![](test_output.jpg) <br/>
 ```
 docker-compose exec frontend npm run coverage
 ```
-Then, open file 'project/coverage/index.html' in chrome.
-
+Then, open file 'project/coverage/index.html' in chrome. <br/>
+Sample output <br/> ![](test_output_coverage.jpg) <br/>
 
 # Tennis Rules
 + A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
