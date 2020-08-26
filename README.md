@@ -2,6 +2,7 @@
 🤖🙊 This is my typescript homework. I will learn 
  * how to setup typescript project 
  * how to run tests.
+ * how to write documentation in typescript.
 
 # Requirements
  * Mac (I haven't tested on Windows and Linux. You may try it)
